@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assignment</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Penyewaan Mobil Perusahaan ABC</h1>
+        <p>Aplikasi sederhana untuk penyewaan kendaraan.</p>
+    </header>
+    <main>
+        <section id="car-selection">
+            <h2>1. Pilih Mobil</h2>
+            <div class="car-list"></div>
+        </section>
+        <section id="customer-form">
+            <h2>2. Isi Data Anda & Hitung Total</h2>
+            <div class="form-group">
+                <label for="customer-name">Nama Pelanggan: </label>
+                <input type="text" name="customer-name" id="customer-name" placeholder="Masukkan nama Anda">
+            </div>
+            <button id="calculate-btn">Hitung Total</button>
+        </section>
+        <section id="order-summary">
+            <h2>3. Ringkasan Pesanan</h2>
+            <div id="summary-details">
+                <p>Silakan pilih mobil dan klik "Hitung Total".</p>
+            </div>
+            <div id="total-price-container">
+                <h3>Total Keseluruhan: <span id="total-price">Rp0</span></h3>
+            </div>
+            <button id="save-btn" style="display: none;">Simpan Pemesanan</button>
+        </section>
+        <section id="booking-history">
+            <h2>4. Riwayat Pemesanan</h2>
+            <div id="history-list">
+                <p>Belum ada riwayat pemesanan.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Perusahaan ABC</p>
+    </footer>
+
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+</body>
+</html>
