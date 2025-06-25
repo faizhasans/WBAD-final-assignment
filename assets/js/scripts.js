@@ -142,7 +142,7 @@ function saveBooking() {
     }
 
     const newBooking = {
-        id: new Date(),
+        id: Date.now(),
         timestamp: new Date().toLocaleString('id-ID'),
         customerName: customerName,
         ...currentOrder
